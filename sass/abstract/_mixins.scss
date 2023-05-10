@@ -1,0 +1,22 @@
+@mixin device($breakpoint){
+    @if $breakpoint == phone{
+        @media only screen and (min-width:37.5em){
+            @content;
+        };
+    }
+    @if $breakpoint == small_tab{
+        @media only screen and (min-width:56.25em){
+            @content;
+        };
+    }
+    @if $breakpoint == big_tab{
+        @media only screen and (min-width:75em){
+            @content;
+        };
+    }
+    @if $breakpoint == desktop{
+        @media only screen and (min-width:112em){
+            @content;
+        };
+    }
+}

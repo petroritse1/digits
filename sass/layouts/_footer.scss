@@ -1,0 +1,66 @@
+.footer{
+    padding:9.6rem 0;
+    &__box{
+        display:flex;
+        flex-direction:column;
+        gap:5rem;
+    }
+    &__info{
+        display:grid;
+        grid-template-columns:repeat(4,1fr);
+        column-gap: 2rem;
+        justify-self:right;
+    }
+    &__digits{
+      column-span: 2;
+      justify-self: left;
+
+    }
+    &__text{
+        margin-top:4rem;
+    }
+    
+    &__pages{
+         justify-self:right;
+    }
+    &__list{
+        margin-top:4rem;
+        display:flex;
+        flex-direction:column;
+        gap:1rem;
+    }
+    &__demos{
+        justify-self: center;
+
+    }
+    &__iconList{
+        display:flex;
+        align-items: center;
+        gap:2rem;
+        flex-wrap:wrap;
+
+    }
+    &__line{
+        margin:4rem 0;
+        color:var(--color-gray--3);
+
+    }
+    &__terms{
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size:1.4rem;
+    }
+    &__subtext{
+        color:var(--color-gray--2);
+    }
+    &__termsbox{
+        display:flex;
+        gap:2rem;
+    }
+    &__link{
+        font-size:1.4rem;
+    }
+   
+
+}

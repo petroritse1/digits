@@ -1,0 +1,31 @@
+.portfolio{
+    
+    background-color:var(--color-tetiary);
+    overflow:hidden;
+    &__block{
+        padding:9.6rem 0;
+       
+    }
+
+    &__box{
+        text-align:center;
+
+    }
+    &__text{
+        font-size:1.4rem;
+        color:var(--color-gray2);
+        
+        margin:0 auto;
+        padding:3.2rem 0;
+        text-align: center;
+         
+    }
+    &__btn{
+        margin:2rem;
+    }
+    &__img{
+        // width:fit-content;
+        width:100%;
+
+    }
+}

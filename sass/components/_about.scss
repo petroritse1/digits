@@ -1,0 +1,152 @@
+.about{
+
+    
+    padding:9.6rem 0;
+     
+     
+
+    &__box{
+        // padding-top:5.2rem;
+
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+         
+    
+
+    }
+    &__composition{
+        
+         
+        display:flex;
+        flex-direction:column;
+        width:60rem;
+       
+        padding:0;
+        
+    }
+    &__img--1{
+        
+        
+        width:30rem;
+       
+        
+    }
+    &__imgblock--1{
+           
+        width:30rem;
+        align-self: center;  
+        position:relative;
+        z-index: -2;
+
+    }
+    &__imgafter--1{
+        position:absolute;
+        bottom:.6rem;
+        right:1rem;
+        z-index: -10;
+    }
+    &__imgblock--2{
+        
+        width:35rem; 
+        align-self: center;
+        margin-left:-15rem;
+        margin-top:-7rem;
+        z-index: 2;
+        position:relative;
+    }
+    
+    &__img--2{
+        width:35rem; 
+        
+    }
+    &__imgafter--2{
+        position:absolute;
+        top:35%;
+        left:-5%;
+        z-index: -3;
+        width:9rem;
+
+    }
+    &__imgblock--3{
+        width:15rem;
+        align-self: center;
+        margin-left:-1rem;
+        margin-top:-15rem;
+        position:relative;
+        z-index: 3;
+        
+    }
+    &__img--3{
+        width:15rem;
+
+    }
+    &__imgafter--3{
+        position:absolute;
+        bottom:-8%;
+        right:-15%;
+        width:5rem;
+        z-index: -5;
+    }
+    &__step{
+        display:flex;
+        flex-direction: column;
+        
+    }
+    &__block{
+       
+        padding: 2rem 0 3rem 0;
+        display:flex;
+        gap:2rem;
+        align-items: start;
+        justify-content:space-between;
+        // border-bottom:1px solid var(--color-gray--3);  
+    }
+ 
+     
+    &__text{
+        padding-top:2rem;
+        flex-wrap:wrap;
+        width:23rem;
+        font-size:1.3rem;
+    }
+    &__border{
+        width:100%;
+    }
+    &__block:not(:last-child){
+        border-bottom: 1px solid var(--color-gray--3);
+    }
+    &__logobox{
+        width:4rem;
+        height:4rem;
+        position:relative;
+        &--1,&--2,&--3{
+            width:4rem;
+            height:4rem;
+
+        }
+        &--1{
+             
+            background-image: url("../img/Rectangle\ 4.png");
+        
+        }
+        &--2{
+            
+            background-image: url("../img/Rectangle\ 4e.png");
+        }
+        &--3{
+            background-image: url("../img/Rectangle\ 4n.png");
+
+        }
+        
+    }
+    &__logo{
+        width:2rem;
+        height:2rem;
+        position:absolute;
+        top:50%;
+        left: 50%;
+        transform:translate(-50%,-50%);
+
+    }
+}

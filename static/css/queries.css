@@ -1,0 +1,257 @@
+@media screen and (max-width:37.5em){
+
+    
+    html{
+        font-size:50%;
+    }
+    .navbar__link{
+        font-size:1.8rem;
+    }
+    .navbar__tel,.btn{
+        font-size:1.2rem;
+    }
+    .header__imgbox{
+        transform:translate(10%,-5%);
+        width:10rem;
+        height:25rem;
+        
+    }
+    /*   */
+    .header__img{
+        width:40rem;
+        height:25rem;
+        transform:translate(-50%,50%)
+    }
+    .featureIn__text{
+        font-size:1.2rem;
+    }
+    .featureIn__logo-box{
+        margin:2rem;
+    }
+    .about__step{
+        margin:3rem;
+
+    }
+    .about__composition{
+        /* display:none; */
+        width:35rem;
+        align-items: center;
+        justify-content: center;
+         
+    }
+    .about__imgblock--1{
+        width:25rem;
+    }
+    .about__img--1{
+        width:25rem;
+    }
+    .about__imgblock--2{
+        width:20rem;
+    }
+    .about__imgafter--2{
+        width:6rem;
+        left:1rem;
+        top:40%;
+    }
+    .about__img--2{
+        width:25rem;
+        margin-left:2rem;
+        margin-top:2rem;
+    }
+    .about__imgblock--3{
+        width:10rem;
+        margin-top:-7rem;
+        margin-left:1rem;
+    }
+    .about__img--3{
+        width:10rem;
+    }
+     
+    
+
+    .cta__text{
+        font-size:3rem;
+        text-align:center;
+         
+        width:100%
+    }
+    .cta__box{
+        text-align:center;
+    }
+    .footer__info{
+        display:grid;
+        grid-template-columns:repeat(2,1fr);
+        grid-template-rows: reapeat(2,1fr);
+        gap:1rem;
+        row-gap:3rem;
+    }
+    .footer__digits{
+        
+        padding-left:3rem;
+
+    }    
+    .footer__pages{
+        justify-self:center;
+        font-size:2.4rem;
+        
+    }    
+    .footer__demos{
+        justify-self:center;
+        
+    }    
+     
+    .footer__resources{
+        justify-self:center;
+        
+    
+    }
+    
+
+}
+@media screen and (max-width:56.25em){
+    html{
+        font-size: 56.25%;
+    }
+    .navbar__navigation{
+        
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height:100vh;
+        width:40vw;
+        background-color: var(--color-white);
+        z-index: 20;
+        animation: slideFromLeft .6s ease-in-out 1;
+        display:none;
+        visibility:hidden;
+        transition:all .2s ease-in-out;
+    
+        
+    }
+    .navbar__info{
+        position:absolute;
+        left:18%;
+        top:40rem;
+        font-size:1.6rem;
+        z-index: 399;
+        display:none;
+        flex-direction:column;
+    }
+    .navbar__list{
+        margin:10rem auto;
+        flex-direction:column;
+        font-size:2rem;
+        align-items: center;
+        justify-content: center;
+       
+       
+    }
+    .navbar__link{
+        color:var(--color-primary);
+        transition:all .4s;
+        
+    }
+    .navbar__link:hover,.navbar__link:active{
+        color:var(--color-secondary);
+        padding-left: 1.5rem;
+        border-left: 0.25rem solid var(--color-secondary);
+    }
+  
+    .navbtn .navicon{      
+        display:block;
+        visibility: visible;      
+    }
+    .navbar__closeicon{
+        font-size:2rem;
+        position:fixed;
+        top:2rem;
+        left:35%;
+        color:var(--color-secondary);
+        z-index: 400;
+        animation: slideFromLeft .6s ease-in-out 1;
+        
+    }
+    .navbar__logo{
+        width:8rem;
+        margin:2rem 0 0 2rem;
+    }
+    .navbar__info{
+       
+       margin:-2rem 0 0 -5rem;
+    }
+    .heading__primary{
+        font-size:3.2rem;
+    }
+    .btn{
+        padding:0.6rem 1.8rem;
+        font-size:1.3rem;
+    }
+    
+   
+    .navbar{
+        margin-bottom:4rem;
+    }
+    .header{
+        width:100%;
+         
+        
+    }
+    .header__banner{
+       
+        width:100%;
+    }
+    .about__box{
+  
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+        gap:10rem;
+    }
+     
+   
+    /* testimonial */
+    .testimonial__box{
+        display:flex;
+        flex-direction:column;
+    }
+    .cta__box{
+        margin:2rem;
+       
+        justify-content: center;
+    }
+    .cta__btn{
+        width:20rem;
+    }
+    .cta__spanbtn{
+        font-size:1.2rem;
+        padding:0;
+        
+    }
+    .footer__box{
+        margin:2rem;
+    }
+    
+}  
+@media screen and (max-width:75em){
+
+    
+    
+    html{
+        font-size:70%;
+    }
+    .testimonial__box{
+        gap:2rem;
+        margin:2rem;
+    }
+    .cta__box{
+        margin:2rem;
+    }
+    .footer__info{
+        margin:2rem;
+    }
+
+}
+ 

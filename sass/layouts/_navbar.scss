@@ -1,0 +1,64 @@
+.navbtn{
+    
+    cursor:pointer;
+    position:fixed;
+    top:5%;
+    right:5%;
+    transition: all .6s;
+    
+}
+.navbtn .navicon{
+    
+    font-size:4rem;
+    &:hover{
+        transform:scale(1.1);
+    }
+   
+
+}
+
+ 
+
+.navbar{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    gap:1rem;
+    padding:2rem 0;
+    font-size:1.4rem;
+    font-weight:500;
+    color:var(--color-primary);
+ 
+
+    &__nav{
+        display:flex;
+        align-items: center;
+        gap:6rem;
+    }
+   
+    &__list{
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        gap:1rem;
+        justify-self: left;
+        margin-right:2rem;
+    
+        
+    }
+    &__link{
+        transition:all .3s;
+        &:hover,&:active{
+            color:var(--color-secondary);
+        }
+    }
+
+   
+    &__info{
+        display:flex;
+        gap:2rem;
+        align-items: center;
+    }
+   
+    
+}

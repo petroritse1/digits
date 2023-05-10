@@ -1,0 +1,74 @@
+
+:root{
+    --color-primary:#1E266D;
+    --color-secondary: #3751FF;
+    --color-tetiary:#FFF9EA;
+    --color-gray--2:#777;
+    --color-gray--3:rgb(216, 214, 214);
+    --color-white:#fff;
+    --font-primary:"poppins", sans-serif;
+    --font-secondary:"Grand Hotel", cursive;
+    --transition:all 0.5s;
+    --border-radius:2rem;
+    --spacing:0.rem;
+    --box-shadow:0.2 0.8rem 2rem rgba(0,0,0,0.8);
+
+}
+
+::selection{
+    background-color:var(--color-primary);
+}
+
+*,*::after,*::before{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+html{
+    font-size:62.5%;
+    
+ 
+
+
+}
+
+body{
+    font-family:var(--font-primary);
+    font-size:1.6rem;
+    font-weight: 400;
+    line-height:1.5;
+    
+    color:var(--color-primary);
+    background-color: var(--color-white);
+    position:relative;
+    overflow-x: hidden;
+    
+
+}
+
+a{
+    text-decoration:none;
+    display:inline-block;
+    color:#1E266D;
+
+}
+
+h1{
+    font-size:3rem;
+
+}
+h2 {
+    font-size:2rem;
+}
+
+h3 {
+    font-size:1.2rem;
+}
+li{
+    list-style-type: none;
+}
+
+
+ 

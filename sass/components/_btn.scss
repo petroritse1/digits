@@ -1,0 +1,16 @@
+.btn{
+    border-radius:var(--border-radius);
+    background-color:var(--color-secondary);
+    padding:0.8rem 2rem;
+    color:var(--color-white);
+    transition:all .3s;
+    &:link,&:visited{
+        color:var(--color-white);
+    };
+    &:hover,&:active{
+        background-color: var(--color-primary);
+        transform: scale(1.1);
+        box-shadow:0.2 0.8rem 2rem rgba(0,0,0,0.8);
+    }
+
+}
