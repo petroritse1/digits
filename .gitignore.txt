@@ -1,0 +1,8 @@
+#ignore node modules
+#adding more modules to be ignored by git
+
+
+!sass
+!package.json
+!package-lock.json
+!.prettierrc
